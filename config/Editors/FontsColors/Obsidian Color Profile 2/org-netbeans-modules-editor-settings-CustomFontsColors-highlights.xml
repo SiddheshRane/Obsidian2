@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor bgColor="ffc9ba52" foreColor="ff293134" name="nbeditor-bracesMatching-match"/>
+    <fontcolor foreColor="ff445257" name="text-limit-line-color"/>
+    <fontcolor bgColor="ff2f383c" foreColor="ff6a8088" name="code-folding"/>
+    <fontcolor foreColor="ffcc0099" name="synchronized-text-blocks-ext"/>
+    <fontcolor bgColor="fffb0000" foreColor="ffe0e2e4" name="nbeditor-bracesMatching-mismatch"/>
+    <fontcolor bgColor="ff2f393c" name="highlight-caret-row"/>
+    <fontcolor foreColor="yellow" name="caret-color-overwrite-mode"/>
+    <fontcolor name="status-bar"/>
+    <fontcolor bgColor="darkGray" name="guarded"/>
+    <fontcolor name="trailing-whitespace"/>
+    <fontcolor bgColor="fffb0000" foreColor="ffe0e2e4" name="nbeditor-bracesMatching-mismatch-multichar"/>
+    <fontcolor foreColor="ffcccccc" name="code-folding-border"/>
+    <fontcolor name="west-sidebars-color"/>
+    <fontcolor foreColor="red" name="status-bar-bold"/>
+    <fontcolor name="nbeditor-bracesMatching-sidebar"/>
+    <fontcolor bgColor="ff3f4b4e" foreColor="ff81969a" name="line-number"/>
+    <fontcolor bgColor="darkGray" name="readonly-files"/>
+    <fontcolor bgColor="ff56676d" foreColor="ff222222" name="highlight-search"/>
+    <fontcolor foreColor="ff81969a" name="code-folding-bar"/>
+    <fontcolor foreColor="ff996600" name="synchronized-text-blocks-ext-slave"/>
+    <fontcolor foreColor="ff394448" name="indent-guide-lines"/>
+    <fontcolor name="indent-whitespace"/>
+    <fontcolor bgColor="ff6b8189" foreColor="ffe0e2e4" name="block-search">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor bgColor="ff404e51" name="selection"/>
+    <fontcolor bgColor="ff0080ff" foreColor="ffffff80" name="inc-search"/>
+    <fontcolor bgColor="ffc9ba52" foreColor="ff293134" name="nbeditor-bracesMatching-match-multichar"/>
+    <fontcolor foreColor="yellow" name="caret-color-insert-mode"/>
+    <fontcolor foreColor="ffa4a4ff" name="hyperlinks" underline="ffa4a4ff"/>
+</fontscolors>
