@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>MainApp.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #e0e2e4; background-color: #293134; font-family: Noto Sans}
+pre {color: #e0e2e4; background-color: #293134; font-family: Noto Sans}
+table {color: #81969a; background-color: #3f4b4e; font-family: Noto Sans}
+.ST3 {color: #818e96; font-family: Noto Sans; font-style: italic}
+.ST2 {color: #12e791}
+.ST0 {color: #93c763; font-family: Noto Sans; font-weight: bold}
+.ST4 {color: #808080}
+.operator {color: #e8e2b7}
+.ST1 {color: #ec8e01}
+.number {color: #ffcd22}
+.string {color: #ec7600}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">/home/siddhesh/NetBeansProjects/datafx/src/main/java/tutorial/datafx/MainApp.java</td></tr></table>
+<pre>
+<span class="ST0">public</span> <span class="ST0">void</span> medusaTest<span class="operator">(</span>Stage <span class="ST1">primaryStage</span><span class="operator">)</span> <span class="operator">{</span>
+        Gauge gauge <span class="operator">=</span> GaugeBuilder<span class="operator">.</span>create<span class="operator">(</span><span class="operator">)</span>
+                <span class="operator">.</span>skinType<span class="operator">(</span>SkinType<span class="operator">.</span><span class="ST2">MODERN</span><span class="operator">)</span>
+                <span class="operator">.</span>decimals<span class="operator">(</span><span class="number">0</span><span class="operator">)</span>
+                <span class="operator">.</span>maxValue<span class="operator">(</span><span class="number">20</span><span class="operator">)</span>
+                <span class="operator">.</span>title<span class="operator">(</span><span class="string">&quot;</span><span class="string">Code Time</span><span class="string">&quot;</span><span class="operator">)</span>
+                <span class="operator">.</span>subTitle<span class="operator">(</span><span class="string">&quot;</span><span class="string">in 20 ms</span><span class="string">&quot;</span><span class="operator">)</span>
+                <span class="operator">.</span>subTitleColor<span class="operator">(</span>Color<span class="operator">.</span><span class="ST2">GRAY</span><span class="operator">)</span>
+                <span class="operator">.</span>tickLabelColor<span class="operator">(</span>Color<span class="operator">.</span><span class="ST2">CADETBLUE</span><span class="operator">)</span>
+                <span class="operator">.</span>unit<span class="operator">(</span><span class="string">&quot;</span><span class="string"> ms</span><span class="string">&quot;</span><span class="operator">)</span>
+                <span class="operator">.</span>sections<span class="operator">(</span>
+                        <span class="ST0">new</span> Section<span class="operator">(</span><span class="number">0</span><span class="operator">,</span> <span class="number">5</span><span class="operator">,</span> Color<span class="operator">.</span><span class="ST2">LIGHTGREEN</span><span class="operator">)</span><span class="operator">,</span>
+                        <span class="ST0">new</span> Section<span class="operator">(</span><span class="number">5</span><span class="operator">,</span> <span class="number">10</span><span class="operator">,</span> Color<span class="operator">.</span><span class="ST2">GREENYELLOW</span><span class="operator">)</span><span class="operator">,</span>
+                        <span class="ST0">new</span> Section<span class="operator">(</span><span class="number">10</span><span class="operator">,</span> <span class="number">15</span><span class="operator">,</span> Color<span class="operator">.</span><span class="ST2">ORANGE</span><span class="operator">)</span><span class="operator">,</span>
+                        <span class="ST0">new</span> Section<span class="operator">(</span><span class="number">15</span><span class="operator">,</span> <span class="number">20</span><span class="operator">,</span> Color<span class="operator">.</span><span class="ST2">RED</span><span class="operator">)</span><span class="operator">)</span>
+                <span class="operator">.</span>gradientBarEnabled<span class="operator">(</span><span class="ST0">true</span><span class="operator">)</span>
+                <span class="operator">.</span>barEffectEnabled<span class="operator">(</span><span class="ST0">true</span><span class="operator">)</span>
+                <span class="operator">.</span>gradientBarStops<span class="operator">(</span><span class="ST0">new</span> Stop<span class="operator">(</span><span class="number">0</span><span class="operator">,</span> Color<span class="operator">.</span><span class="ST2">CORNFLOWERBLUE</span><span class="operator">)</span><span class="operator">,</span> <span class="ST0">new</span> Stop<span class="operator">(</span><span class="number">1</span><span class="operator">,</span> Color<span class="operator">.</span><span class="ST2">RED</span><span class="operator">)</span><span class="operator">)</span>
+                <span class="operator">.</span>sectionsVisible<span class="operator">(</span><span class="ST0">true</span><span class="operator">)</span>
+                <span class="operator">.</span>build<span class="operator">(</span><span class="operator">)</span><span class="operator">;</span>
+<span class="ST3">//        gauge.setSections(</span>
+<span class="ST3">//                new Section(0, 5, &quot;Efficient&quot;, Color.LIGHTGREEN),</span>
+<span class="ST3">//                new Section(5, 10, &quot;Half capacity&quot;, Color.GREEN),</span>
+<span class="ST3">//                new Section(10, 15, &quot;Beyond half capacity&quot;, Color.YELLOW),</span>
+<span class="ST3">//                new Section(15, 20, &quot;Less than full capacity&quot;, Color.ORANGE),</span>
+<span class="ST3">//                new Section(20, 25, &quot;Capacity Exceeded&quot;, Color.ORANGERED),</span>
+<span class="ST3">//                new Section(25, 40, &quot;Thrashing&quot;, Color.RED)</span>
+<span class="ST3">//                          );</span>
+<span class="ST3">//        gauge.setHighlightSections(true);</span>
+<span class="ST3">//        gauge.setSectionTextVisible(true);</span>
+<span class="ST3">//        gauge.setSectionsVisible(true);</span>
+<span class="ST3">//        gauge.setNeedleType(Gauge.NeedleType.STANDARD);</span>
+        ComboBox<span class="operator">&lt;</span>SkinType<span class="operator">&gt;</span> skinType <span class="operator">=</span> <span class="ST0">new</span> ComboBox<span class="operator">&lt;</span><span class="operator">&gt;</span><span class="operator">(</span>FXCollections<span class="operator">.</span>observableArrayList<span class="operator">(</span>SkinType<span class="operator">.</span>values<span class="operator">(</span><span class="operator">)</span><span class="operator">)</span><span class="operator">)</span><span class="operator">;</span>
+        skinType<span class="operator">.</span>setOnAction<span class="operator">(</span><span class="ST4">ae</span> <span class="operator">-&gt;</span> <span class="operator">{</span>
+            gauge<span class="operator">.</span>setSkinType<span class="operator">(</span>skinType<span class="operator">.</span>getValue<span class="operator">(</span><span class="operator">)</span><span class="operator">)</span><span class="operator">;</span>
+        <span class="operator">}</span><span class="operator">)</span><span class="operator">;</span>
+        Spinner value <span class="operator">=</span> <span class="ST0">new</span> Spinner<span class="operator">(</span><span class="number">0</span><span class="operator">,</span> <span class="number">21</span><span class="operator">,</span> <span class="number">4</span><span class="operator">)</span><span class="operator">;</span>
+        gauge<span class="operator">.</span>valueProperty<span class="operator">(</span><span class="operator">)</span><span class="operator">.</span>bind<span class="operator">(</span>value<span class="operator">.</span>valueProperty<span class="operator">(</span><span class="operator">)</span><span class="operator">)</span><span class="operator">;</span>
+        <span class="ST0">final</span> VBox vBox <span class="operator">=</span> <span class="ST0">new</span> VBox<span class="operator">(</span>gauge<span class="operator">,</span> value<span class="operator">,</span> skinType<span class="operator">)</span><span class="operator">;</span>
+        vBox<span class="operator">.</span>setMaxHeight<span class="operator">(</span>Double<span class="operator">.</span><span class="ST2">MAX_VALUE</span><span class="operator">)</span><span class="operator">;</span>
+        vBox<span class="operator">.</span>setMaxWidth<span class="operator">(</span>Double<span class="operator">.</span><span class="ST2">MAX_VALUE</span><span class="operator">)</span><span class="operator">;</span>
+        vBox<span class="operator">.</span>setFillWidth<span class="operator">(</span><span class="ST0">true</span><span class="operator">)</span><span class="operator">;</span>
+        vBox<span class="operator">.</span>setVgrow<span class="operator">(</span>value<span class="operator">,</span> Priority<span class="operator">.</span><span class="ST2">ALWAYS</span><span class="operator">)</span><span class="operator">;</span>
+        vBox<span class="operator">.</span>setSpacing<span class="operator">(</span><span class="number">10</span><span class="operator">)</span><span class="operator">;</span>
+        Scene scene <span class="operator">=</span> <span class="ST0">new</span> Scene<span class="operator">(</span><span class="ST0">new</span> StackPane<span class="operator">(</span>vBox<span class="operator">)</span><span class="operator">)</span><span class="operator">;</span>
+        <span class="ST1">primaryStage</span><span class="operator">.</span>setScene<span class="operator">(</span>scene<span class="operator">)</span><span class="operator">;</span>
+        <span class="ST1">primaryStage</span><span class="operator">.</span>show<span class="operator">(</span><span class="operator">)</span><span class="operator">;</span>
+<span class="operator">    }</span>
+</pre></body>
+</html>
