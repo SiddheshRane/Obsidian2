@@ -3,6 +3,8 @@
 A modified version of the Obsidian dark theme for Netbeans, specially for Linux.
 This theme refines many aspects of the original. 
 
+Check out preview https://siddheshrane.github.io/Obsidian2/
+
 ## Installation
 
 #### To install
